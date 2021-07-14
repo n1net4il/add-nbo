@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     num1 = ntohl(num1);
     num2 = ntohl(num2);
 
-    printf("%d(0x%x) + %d(0x%x) = %d(0x%x)\n", num1, num1, num2, num2, num1 + num2, num1 + num2);
+    printf("%u(0x%x) + %u(0x%x) = %u(0x%x)\n", num1, num1, num2, num2, num1 + num2, num1 + num2);
 
     return 0;
 }
